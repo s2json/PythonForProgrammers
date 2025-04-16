@@ -61,7 +61,7 @@ grades.iat[1, 2]
 # Descriptive Statistics
 grades.describe()
 
-pd.set_option('precision', 2)
+pd.set_option('display.precision', 2)
 
 grades.describe()
 
